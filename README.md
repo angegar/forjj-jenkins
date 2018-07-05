@@ -38,13 +38,13 @@ By default, this will create a Jenkins container started in your docker host (Fo
 
 Behind the scene, forjj-jenkins generates a collection of deployment files in a new deployment repository from the [forjj-jenkins templates files](templates).
 
-For details about how templates works or create you own templates, read [the Jenkins source Templates section](#jenkins-source-templates)
+For details about how templates works or create your own templates, read [the Jenkins source Templates section](#jenkins-source-templates)
 
 ## Jenkins source templates
 
 All jenkins source files are generated from a collection of source templates.
 
-Forjj itself use the templates stored under [templates](templates) to build and deliver itself.
+Forjj itself uses the templates stored under [templates](templates) to build and deliver itself.
 
 When you start this forjj-jenkins component, it will use this [templates subdirectory](templates)
 
