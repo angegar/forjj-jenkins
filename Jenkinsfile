@@ -1,6 +1,10 @@
 pipeline {
     agent any
-
+    
+     triggers {
+        cron('0 0 * * 2') //At 00:00 on Thursday
+    }
+    
     stages {
         stage('prepare build environment') {
             steps {
